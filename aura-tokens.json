@@ -1,0 +1,60 @@
+{
+  "$name": "Aura Design System",
+  "$version": "1.0.0",
+  "$description": "Single source of truth for the AIQuick/QuickOpen visual language. Generators emit: Plasma color-schemes (.colors), the apps' aura.py palette, and CSS variables for the web. Change a token here and regenerate — shell, apps, and web stay coherent.",
+  "brand": {
+    "accent":        "#5b86f7",
+    "accent-strong": "#3a5fd0",
+    "accent-edge":   "#7d93d6",
+    "beam":          "#5b86f7"
+  },
+  "radius": { "sm": "8px", "md": "12px", "lg": "16px", "pill": "999px" },
+  "space":  { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "8": "48px" },
+  "type": {
+    "family-ui":   "ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+    "family-mono": "ui-monospace, 'JetBrains Mono', 'DejaVu Sans Mono', monospace",
+    "scale": { "xs":"12px","sm":"13px","md":"15px","lg":"17px","xl":"21px","2xl":"28px","3xl":"40px" },
+    "weight": { "regular":400, "medium":500, "semibold":600, "bold":700, "heavy":800 }
+  },
+  "elevation": {
+    "0": "none",
+    "1": "0 1px 2px rgba(6,9,15,.35)",
+    "2": "0 6px 20px -8px rgba(6,9,15,.55)",
+    "3": "0 30px 80px -30px rgba(6,9,15,.8)"
+  },
+  "semantic": { "ok": "#37c56f", "warn": "#f0b429", "danger": "#e5484d", "info": "#5b86f7" },
+  "modes": {
+    "dark": {
+      "bg":        "#0f1115",
+      "bg2":       "#14171c",
+      "surface":   "#1a1e24",
+      "surface2":  "#222731",
+      "surface3":  "#2a3039",
+      "border":    "#2b313b",
+      "border2":   "#3a424f",
+      "text":      "#f1f3f7",
+      "muted":     "#9aa4b2",
+      "faint":     "#6f7a89",
+      "field":     "#14171c",
+      "accent":    "#5b86f7",
+      "on-accent": "#ffffff",
+      "ok": "#37c56f", "warn": "#f0b429", "danger": "#e5484d"
+    },
+    "light": {
+      "bg":        "#f5f7fb",
+      "bg2":       "#eef1f6",
+      "surface":   "#ffffff",
+      "surface2":  "#f3f5f9",
+      "surface3":  "#e8ecf3",
+      "border":    "#d3d9e6",
+      "border2":   "#c8d0dc",
+      "text":      "#1a2130",
+      "muted":     "#5b657a",
+      "faint":     "#808b9b",
+      "field":     "#ffffff",
+      "accent":    "#5b86f7",
+      "on-accent": "#ffffff",
+      "ok": "#17914b", "warn": "#b0700a", "danger": "#cf2d3a"
+    }
+  }
+}
